@@ -151,12 +151,66 @@ nav a:hover{
     color: grey;
 }
 
+@media screen and (max-width: 1500px) {
+    main{
+        /* background-image: url(quadro.png); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .h1{
+        margin-top: 200px;
+    }
+
+    .send{
+        float: right;
+        margin-right: 900px;
+    }
+
+    .button{
+        float: right;
+        margin-right: 1300px;
+    }
+
+    .button2{
+        float: right;
+        margin-right: 1060px;
+        margin-top: -48px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    main{
+        background-image: url(quadro.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .send{
+        float: right;
+        margin-right: 650px;
+    }
+
+    .button{
+        float: right;
+        margin-right: 900px;
+    }
+
+    .button2{
+        float: right;
+        margin-right: 730px;
+    }
+
+}
+
 @media screen and (max-width: 500px) {
     main{
         background-image: url(super\ typhoon.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
+        height: 800px;
     }
 
     body{
@@ -182,7 +236,7 @@ nav a:hover{
         transition: 0.5s;
     }
 
-    /* .account{
+    .account{
         display: none;
     }
 
@@ -192,7 +246,7 @@ nav a:hover{
 
     .fa-magnifying-glass{
         display: none;
-    } */
+    }
 
     .img1{
         margin-left: 70px;
@@ -327,60 +381,6 @@ nav a:hover{
         transition: 0.5s;
         color: grey;
         cursor: not-allowed;
-    }
-
-}
-
-@media screen and (max-width: 1500px) {
-    main{
-        background-image: url(quadro.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-    }
-
-    .h1{
-        margin-top: 200px;
-    }
-
-    .send{
-        float: right;
-        margin-right: 900px;
-    }
-
-    .button{
-        float: right;
-        margin-right: 1300px;
-    }
-
-    .button2{
-        float: right;
-        margin-right: 1120px;
-        margin-top: -38px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    main{
-        background-image: url(quadro.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-    }
-
-    .send{
-        float: right;
-        margin-right: 650px;
-    }
-
-    .button{
-        float: right;
-        margin-right: 900px;
-    }
-
-    .button2{
-        float: right;
-        margin-right: 730px;
     }
 
 }
